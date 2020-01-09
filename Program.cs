@@ -33,7 +33,7 @@ namespace API调用第二版
             Comprehensive c3 = new Comprehensive() { Url = "https://localhost:44350/test18" ,headers=d3,Params=new List<Param> { c3p1} };
             List<Comprehensive> comprehensives = new List<Comprehensive> { c1,c2,c3};
             ApiInvoke api = new ApiInvoke(comprehensives);
-            Console.WriteLine(api.getValue("https://localhost:44350/test16"));
+            Console.WriteLine(api.getValue("https://localhost:44350/test18"));
             Console.ReadKey();
         }
     }
